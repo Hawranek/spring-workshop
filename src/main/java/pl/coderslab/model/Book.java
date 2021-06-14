@@ -8,7 +8,7 @@ public class Book {
     private String publisher;
     private String type;
 
-    public Book() {
+    public Book() {         //konstruktor potrzebny do używania w kontrolerze obiektów z @RequestBody - zgodnie z zasadą działania Jacksona
     }
 
     public Book(Long id, String isbn, String title, String author, String publisher, String type) {

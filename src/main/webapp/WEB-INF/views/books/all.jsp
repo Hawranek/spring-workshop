@@ -28,6 +28,8 @@
     </c:forEach>
     </tbody>
 </table>
+<a href="/admin/books/add">Dodaj ksiżkę</a><br/>
+
 </body>
 </html>
 

@@ -58,5 +58,11 @@ public class ManageBookController {
         return "redirect:/admin/books/all";
     }
 
+    @GetMapping("/show/{id}")
+    public String showBook(@PathVariable Long id, Model model){
+        Optional<Book> book = bookService.get(id);
+        model.addAttribute("book",book.orElse(null));
+        return "books/show";
+    }
 
 }

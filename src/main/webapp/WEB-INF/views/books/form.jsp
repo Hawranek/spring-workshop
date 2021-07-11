@@ -31,26 +31,31 @@
             Tytuł:
             <form:input path="title"/>
             <form:errors path="title" cssClass="error"/>
+            <br/>
         </tr>
         <tr>
             ISBN:
             <form:input path="isbn"/>
             <form:errors path="isbn" cssClass="error"/>
+            <br/>
         </tr>
         <tr>
             Autor:
             <form:input path="author"/>
             <form:errors path="author" cssClass="error"/>
+            <br/>
         </tr>
         <tr>
             Wydawca:
             <form:input path="publisher"/>
             <form:errors path="publisher" cssClass="error"/>
+            <br/>
         </tr>
         <tr>
             Typ:
             <form:input path="type"/>
             <form:errors path="type" cssClass="error"/>
+            <br/>
         </tr>
     <input type="submit">
     </form:form>

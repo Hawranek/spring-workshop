@@ -28,9 +28,6 @@
     </c:forEach>
     </tbody>
 </table>
-<a href="/admin/books/add">Dodaj książkę</a><br/>
-<a href="/admin/books/delete">Usun książkę</a><br/>
-<a href="/admin/books/all">Wyswietl wszystkie książki</a><br/>
 </body>
 </html>
 

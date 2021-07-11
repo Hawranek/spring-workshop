@@ -25,27 +25,22 @@
     <td>
 <%--        Tytuł:--%>
         <c:out value="${book.title}"/>
-<%--        <br/>--%>
     </td>
     <td>
 <%--        ISBN:--%>
         <c:out value="${book.isbn}"/>
-<%--        <br/>--%>
     </td>
     <td>
 <%--        Autor:--%>
         <c:out value="${book.author}"/>
-<%--        <br/>--%>
     </td>
     <td>
 <%--        Wydawca:--%>
         <c:out value="${book.publisher}"/>
-<%--        <br/>--%>
     </td>
     <td>
 <%--        Typ:--%>
         <c:out value="${book.type}"/>
-<%--        <br/>--%>
     </td>
     <td>
         <a href="<c:out value="/admin/books/delete/${book.id}"/>">Usuń</a>
